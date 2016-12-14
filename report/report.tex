@@ -23,7 +23,7 @@
 %3. Develop the equations on which your results will be based and/or describe any experimental systems.
 Detection of impostor fingerprints are an important part of a fingerprint based biometric system. These impostor and fake fingerprints are commonly called "spoofs" It is not enough that the system can tell apart one person from another, but also must be able to tell apart fake fingerprints from real fingerprints to inspire real confidence in it's users. Spoof fingerprints can be made from common household materials and more and more material's are appearing which can be used to make these spoofs. Because of this it is also important that a spoof detection system also can detect spoofs when novel types of materials are used on it. 
 
-A neural network may be used to solve this complex classification problem as it has the ability to learn from a large variety of samples and draw complex decision boundaries. (Citation?) Neural networks are expensive to train for complex problems involving large dimensional data, such as images. It is possible to take a pre-trained general image classification neural network and reapply it to this classification task. This enables a much quicker training time and more accurate results than could be achieved by a small team. 
+A neural network may be used to solve this complex classification problem as it has the ability to learn from a large variety of samples and draw complex decision boundaries. \cite{book} (Citation?) Neural networks are expensive to train for complex problems involving large dimensional data, such as images. It is possible to take a pre-trained general image classification neural network and reapply it to this classification task. This enables a much quicker training time and more accurate results than could be achieved by a small team. 
 
 Convolutional Neural Networks provide a framework 
 \section{Results}
@@ -66,4 +66,8 @@ Convolutional Neural Networks provide a framework
      \caption{ROC Curves When Novel Spoofs Are Introduced}
      \label{fig-2:dummy}
    \end{figure}
+   \nocite{*}
+\bibliographystyle{ieeetr}
+\bibliography{/home/octopuscabbage/code/NeuralAndAdaptiveSystemsFinal/report/bib.bib}
 \end{document}
+

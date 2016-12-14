@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.4.25)  13 DEC 2016 19:53
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.4.25)  13 DEC 2016 20:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**template_Article.tex
-(./template_Article.tex
+**report.tex
+(./report.tex
 LaTeX2e <2011/06/27>
 Babel <3.9h> and hyphenation patterns for 2 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -128,9 +128,8 @@ Package caption3 Info: TeX engine: e-TeX on input line 57.
 \c@lotdepth=\count95
 \sf@top=\skip46
 \sf@bottom=\skip47
-)
-(./template_Article.aux)
-\openout1 = `template_Article.aux'.
+) (./report.aux)
+\openout1 = `report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
@@ -144,7 +143,6 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
-
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count96
@@ -308,41 +306,45 @@ Overfull \hbox (182.49998pt too wide) in paragraph at lines 50--66
 [] [][] 
  []
 
-[2 </home/octopuscabbage/code/NeuralAndAdaptiveSystemsFinal/roc_curves/SGD Opti
-mizer, Hidden Layers: 50 Learning Rate: 0.01, Momentum: 0.01, Learning Rate Dec
-ay: 0/ROC,AUC: 0.96 Testing SGD Optimizer, Hidden Layers: 50 Learning Rate: 0.0
-1, Momentum: 0.01, Learning Rate Decay: 0.png> </home/octopuscabbage/code/Neura
-lAndAdaptiveSystemsFinal/roc_curves/SGD Optimizer, Hidden Layers: 50 Learning R
-ate: 0.01, Momentum: 0.01, Learning Rate Decay: 0/ROC,AUC: 0.99 Validation SGD 
-Optimizer, Hidden Layers: 50 Learning Rate: 0.01, Momentum: 0.01, Learning Rate
- Decay: 0.png>] [3 </home/octopuscabbage/code/NeuralAndAdaptiveSystemsFinal/roc
-_curves/Gelatine/ROC,AUC: 0.95 Testing when Gelatine is introduced.png> </home/
-octopuscabbage/code/NeuralAndAdaptiveSystemsFinal/roc_curves/Latex/ROC,AUC: 0.9
-5 Testing when Latex is introduced.png> </home/octopuscabbage/code/NeuralAndAda
-ptiveSystemsFinal/roc_curves/Playdoh/ROC,AUC: 0.96 Testing when Playdoh is intr
-oduced.png> </home/octopuscabbage/code/NeuralAndAdaptiveSystemsFinal/roc_curves
-/Silicone/ROC,AUC: 0.92 Testing when Silicone is introduced.png> </home/octopus
-cabbage/code/NeuralAndAdaptiveSystemsFinal/roc_curves/WoodGlue/ROC,AUC: 0.99 Te
-sting when WoodGlue is introduced.png>] (./template_Article.aux) ) 
+(./report.bbl
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ­ in font cmr10!
+) [2 </home/octopuscabbage/code/NeuralAndAdaptiveSystemsFinal/roc_curves/SGD Op
+timizer, Hidden Layers: 50 Learning Rate: 0.01, Momentum: 0.01, Learning Rate D
+ecay: 0/ROC,AUC: 0.96 Testing SGD Optimizer, Hidden Layers: 50 Learning Rate: 0
+.01, Momentum: 0.01, Learning Rate Decay: 0.png> </home/octopuscabbage/code/Neu
+ralAndAdaptiveSystemsFinal/roc_curves/SGD Optimizer, Hidden Layers: 50 Learning
+ Rate: 0.01, Momentum: 0.01, Learning Rate Decay: 0/ROC,AUC: 0.99 Validation SG
+D Optimizer, Hidden Layers: 50 Learning Rate: 0.01, Momentum: 0.01, Learning Ra
+te Decay: 0.png>] [3 </home/octopuscabbage/code/NeuralAndAdaptiveSystemsFinal/r
+oc_curves/Gelatine/ROC,AUC: 0.95 Testing when Gelatine is introduced.png> </hom
+e/octopuscabbage/code/NeuralAndAdaptiveSystemsFinal/roc_curves/Latex/ROC,AUC: 0
+.95 Testing when Latex is introduced.png> </home/octopuscabbage/code/NeuralAndA
+daptiveSystemsFinal/roc_curves/Playdoh/ROC,AUC: 0.96 Testing when Playdoh is in
+troduced.png> </home/octopuscabbage/code/NeuralAndAdaptiveSystemsFinal/roc_curv
+es/Silicone/ROC,AUC: 0.92 Testing when Silicone is introduced.png> </home/octop
+uscabbage/code/NeuralAndAdaptiveSystemsFinal/roc_curves/WoodGlue/ROC,AUC: 0.99 
+Testing when WoodGlue is introduced.png>] (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 2807 strings out of 495028
- 49923 string characters out of 6181497
- 102676 words of memory out of 5000000
- 6011 multiletter control sequences out of 15000+600000
- 7887 words of font info for 28 fonts, out of 8000000 for 9000
+ 2813 strings out of 495028
+ 49886 string characters out of 6181497
+ 102679 words of memory out of 5000000
+ 6013 multiletter control sequences out of 15000+600000
+ 8233 words of font info for 29 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 44i,9n,47p,661b,356s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr8.pfb>
-Output written on template_Article.pdf (3 pages, 264517 bytes).
+ 44i,9n,47p,651b,356s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mti10.pfb>
+Output written on report.pdf (3 pages, 277959 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
- 27 compressed objects within 1 object stream
+ 57 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
