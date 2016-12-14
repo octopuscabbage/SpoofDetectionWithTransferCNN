@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.4.25)  13 DEC 2016 18:20
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.4.25)  13 DEC 2016 19:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -55,61 +55,16 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-(./template_Article.aux)
-\openout1 = `template_Article.aux'.
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grffile.sty
+Package: grffile 2012/04/05 v1.16 Extended file name support for graphics (HO)
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count88
-\scratchdimen=\dimen105
-\scratchbox=\box26
-\nofMPsegments=\count89
-\nofMParguments=\count90
-\everyMPshowfont=\toks15
-\MPscratchCnt=\count91
-\MPscratchDim=\dimen106
-\MPnumerator=\count92
-\makeMPintoPDFobject=\count93
-\everyMPtoPDFconversion=\toks16
-) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-))
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
@@ -118,11 +73,100 @@ Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package grffile Info: Option `multidot' is set to `true'.
+Package grffile Info: Option `extendedchars' is set to `false'.
+Package grffile Info: Option `space' is set to `true'.
+Package grffile Info: \Gin@ii of package `graphicx' fixed on input line 486.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen105
+\captionmargin@=\dimen106
+\captionwidth=\dimen107
+\caption@tempdima=\dimen108
+\caption@indent=\dimen109
+\caption@parindent=\dimen110
+\caption@hangindent=\dimen111
+)
+\c@ContinuedFloat=\count88
+)
+\c@KVtest=\count89
+\sf@farskip=\skip43
+\sf@captopadj=\dimen112
+\sf@capskip=\skip44
+\sf@nearskip=\skip45
+\c@subfigure=\count90
+\c@subfigure@save=\count91
+\c@lofdepth=\count92
+\c@subtable=\count93
+\c@subtable@save=\count94
+\c@lotdepth=\count95
+\sf@top=\skip46
+\sf@bottom=\skip47
+)
+(./template_Article.aux)
+\openout1 = `template_Article.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count96
+\scratchdimen=\dimen113
+\scratchbox=\box26
+\nofMPsegments=\count97
+\nofMParguments=\count98
+\everyMPshowfont=\toks15
+\MPscratchCnt=\count99
+\MPscratchDim=\dimen114
+\MPnumerator=\count100
+\makeMPintoPDFobject=\count101
+\everyMPtoPDFconversion=\toks16
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
 Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
@@ -132,54 +176,173 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 10.
+(Font)              <12> on input line 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 10.
+(Font)              <8> on input line 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 10.
+(Font)              <6> on input line 13.
 
+</home/octopuscabbage/code/NeuralAndAdaptiveSystemsFinal/roc_curves/SGD Optimiz
+er, Hidden Layers: 50 Learning Rate: 0.01, Momentum: 0.01, Learning Rate Decay:
+ 0/ROC,AUC: 0.96 Testing SGD Optimizer, Hidden Layers: 50 Learning Rate: 0.01, 
+Momentum: 0.01, Learning Rate Decay: 0.png, id=1, 578.16pt x 433.62pt>
+File: /home/octopuscabbage/code/NeuralAndAdaptiveSystemsFinal/roc_curves/SGD Op
+timizer, Hidden Layers: 50 Learning Rate: 0.01, Momentum: 0.01, Learning Rate D
+ecay: 0/ROC,AUC: 0.96 Testing SGD Optimizer, Hidden Layers: 50 Learning Rate: 0
+.01, Momentum: 0.01, Learning Rate Decay: 0.png Graphic file (type png)
 
-LaTeX Warning: File `/home/octopuscabbage/code/NeuralAndAdaptiveSystemsFinal/ro
-c_curves/SGD Optimizer, Hidden Layers: 50 Learning Rate: 0.01, Momentum: 0.01, 
-Learning Rate Decay: 0/ROC,AUC: 0.96 Testing SGD Optimizer, Hidden Layers: 50 L
-earning Rate: 0.01, Momentum: 0.01, Learning Rate Decay: 0.png' not found on in
-put line 33.
+<use /home/octopuscabbage/code/NeuralAndAdaptiveSystemsFinal/roc_curves/SGD Opt
+imizer, Hidden Layers: 50 Learning Rate: 0.01, Momentum: 0.01, Learning Rate De
+cay: 0/ROC,AUC: 0.96 Testing SGD Optimizer, Hidden Layers: 50 Learning Rate: 0.
+01, Momentum: 0.01, Learning Rate Decay: 0.png>
+Package pdftex.def Info: /home/octopuscabbage/code/NeuralAndAdaptiveSystemsFina
+l/roc_curves/SGD Optimizer, Hidden Layers: 50 Learning Rate: 0.01, Momentum: 0.
+01, Learning Rate Decay: 0/ROC,AUC: 0.96 Testing SGD Optimizer, Hidden Layers: 
+50 Learning Rate: 0.01, Momentum: 0.01, Learning Rate Decay: 0.png used on inpu
+t line 38.
+(pdftex.def)             Requested size: 172.5pt x 129.37242pt.
 
+</home/octopuscabbage/code/NeuralAndAdaptiveSystemsFinal/roc_curves/SGD Optimiz
+er, Hidden Layers: 50 Learning Rate: 0.01, Momentum: 0.01, Learning Rate Decay:
+ 0/ROC,AUC: 0.99 Validation SGD Optimizer, Hidden Layers: 50 Learning Rate: 0.0
+1, Momentum: 0.01, Learning Rate Decay: 0.png, id=3, 578.16pt x 433.62pt>
+File: /home/octopuscabbage/code/NeuralAndAdaptiveSystemsFinal/roc_curves/SGD Op
+timizer, Hidden Layers: 50 Learning Rate: 0.01, Momentum: 0.01, Learning Rate D
+ecay: 0/ROC,AUC: 0.99 Validation SGD Optimizer, Hidden Layers: 50 Learning Rate
+: 0.01, Momentum: 0.01, Learning Rate Decay: 0.png Graphic file (type png)
 
-! LaTeX Error: Unknown graphics extension: .96 Testing SGD Optimizer, Hidden La
-yers: 50 Learning Rate: 0.01, Momentum: 0.01, Learning Rate Decay: 0.png.
+<use /home/octopuscabbage/code/NeuralAndAdaptiveSystemsFinal/roc_curves/SGD Opt
+imizer, Hidden Layers: 50 Learning Rate: 0.01, Momentum: 0.01, Learning Rate De
+cay: 0/ROC,AUC: 0.99 Validation SGD Optimizer, Hidden Layers: 50 Learning Rate:
+ 0.01, Momentum: 0.01, Learning Rate Decay: 0.png>
+Package pdftex.def Info: /home/octopuscabbage/code/NeuralAndAdaptiveSystemsFina
+l/roc_curves/SGD Optimizer, Hidden Layers: 50 Learning Rate: 0.01, Momentum: 0.
+01, Learning Rate Decay: 0/ROC,AUC: 0.99 Validation SGD Optimizer, Hidden Layer
+s: 50 Learning Rate: 0.01, Momentum: 0.01, Learning Rate Decay: 0.png used on i
+nput line 42.
+(pdftex.def)             Requested size: 172.5pt x 129.37242pt.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.33 ...omentum: 0.01, Learning Rate Decay: 0.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Overfull \hbox (6.66666pt too wide) in paragraph at lines 38--43
+[][] [] 
+ []
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-(./template_Article.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+</home/octopuscabbage/code/NeuralAndAdaptiveSystemsFinal/roc_curves/Gelatine/RO
+C,AUC: 0.95 Testing when Gelatine is introduced.png, id=14, 578.16pt x 433.62pt
+>
+File: /home/octopuscabbage/code/NeuralAndAdaptiveSystemsFinal/roc_curves/Gelati
+ne/ROC,AUC: 0.95 Testing when Gelatine is introduced.png Graphic file (type png
+)
+
+<use /home/octopuscabbage/code/NeuralAndAdaptiveSystemsFinal/roc_curves/Gelatin
+e/ROC,AUC: 0.95 Testing when Gelatine is introduced.png>
+Package pdftex.def Info: /home/octopuscabbage/code/NeuralAndAdaptiveSystemsFina
+l/roc_curves/Gelatine/ROC,AUC: 0.95 Testing when Gelatine is introduced.png use
+d on input line 50.
+(pdftex.def)             Requested size: 172.5pt x 129.37242pt.
+
+</home/octopuscabbage/code/NeuralAndAdaptiveSystemsFinal/roc_curves/Latex/ROC,A
+UC: 0.95 Testing when Latex is introduced.png, id=15, 578.16pt x 433.62pt>
+File: /home/octopuscabbage/code/NeuralAndAdaptiveSystemsFinal/roc_curves/Latex/
+ROC,AUC: 0.95 Testing when Latex is introduced.png Graphic file (type png)
+
+<use /home/octopuscabbage/code/NeuralAndAdaptiveSystemsFinal/roc_curves/Latex/R
+OC,AUC: 0.95 Testing when Latex is introduced.png>
+Package pdftex.def Info: /home/octopuscabbage/code/NeuralAndAdaptiveSystemsFina
+l/roc_curves/Latex/ROC,AUC: 0.95 Testing when Latex is introduced.png used on i
+nput line 54.
+(pdftex.def)             Requested size: 172.5pt x 129.37242pt.
+
+</home/octopuscabbage/code/NeuralAndAdaptiveSystemsFinal/roc_curves/Playdoh/ROC
+,AUC: 0.96 Testing when Playdoh is introduced.png, id=16, 578.16pt x 433.62pt>
+File: /home/octopuscabbage/code/NeuralAndAdaptiveSystemsFinal/roc_curves/Playdo
+h/ROC,AUC: 0.96 Testing when Playdoh is introduced.png Graphic file (type png)
+
+<use /home/octopuscabbage/code/NeuralAndAdaptiveSystemsFinal/roc_curves/Playdoh
+/ROC,AUC: 0.96 Testing when Playdoh is introduced.png>
+Package pdftex.def Info: /home/octopuscabbage/code/NeuralAndAdaptiveSystemsFina
+l/roc_curves/Playdoh/ROC,AUC: 0.96 Testing when Playdoh is introduced.png used 
+on input line 58.
+(pdftex.def)             Requested size: 172.5pt x 129.37242pt.
+
+</home/octopuscabbage/code/NeuralAndAdaptiveSystemsFinal/roc_curves/Silicone/RO
+C,AUC: 0.92 Testing when Silicone is introduced.png, id=17, 578.16pt x 433.62pt
+>
+File: /home/octopuscabbage/code/NeuralAndAdaptiveSystemsFinal/roc_curves/Silico
+ne/ROC,AUC: 0.92 Testing when Silicone is introduced.png Graphic file (type png
+)
+
+<use /home/octopuscabbage/code/NeuralAndAdaptiveSystemsFinal/roc_curves/Silicon
+e/ROC,AUC: 0.92 Testing when Silicone is introduced.png>
+Package pdftex.def Info: /home/octopuscabbage/code/NeuralAndAdaptiveSystemsFina
+l/roc_curves/Silicone/ROC,AUC: 0.92 Testing when Silicone is introduced.png use
+d on input line 62.
+(pdftex.def)             Requested size: 172.5pt x 129.37242pt.
+
+</home/octopuscabbage/code/NeuralAndAdaptiveSystemsFinal/roc_curves/WoodGlue/RO
+C,AUC: 0.99 Testing when WoodGlue is introduced.png, id=18, 578.16pt x 433.62pt
+>
+File: /home/octopuscabbage/code/NeuralAndAdaptiveSystemsFinal/roc_curves/WoodGl
+ue/ROC,AUC: 0.99 Testing when WoodGlue is introduced.png Graphic file (type png
+)
+
+<use /home/octopuscabbage/code/NeuralAndAdaptiveSystemsFinal/roc_curves/WoodGlu
+e/ROC,AUC: 0.99 Testing when WoodGlue is introduced.png>
+Package pdftex.def Info: /home/octopuscabbage/code/NeuralAndAdaptiveSystemsFina
+l/roc_curves/WoodGlue/ROC,AUC: 0.99 Testing when WoodGlue is introduced.png use
+d on input line 65.
+(pdftex.def)             Requested size: 172.5pt x 129.37242pt.
+
+Overfull \hbox (6.66666pt too wide) in paragraph at lines 50--66
+[][] []
+ []
+
+
+Overfull \hbox (182.49998pt too wide) in paragraph at lines 50--66
+[] [][] 
+ []
+
+[2 </home/octopuscabbage/code/NeuralAndAdaptiveSystemsFinal/roc_curves/SGD Opti
+mizer, Hidden Layers: 50 Learning Rate: 0.01, Momentum: 0.01, Learning Rate Dec
+ay: 0/ROC,AUC: 0.96 Testing SGD Optimizer, Hidden Layers: 50 Learning Rate: 0.0
+1, Momentum: 0.01, Learning Rate Decay: 0.png> </home/octopuscabbage/code/Neura
+lAndAdaptiveSystemsFinal/roc_curves/SGD Optimizer, Hidden Layers: 50 Learning R
+ate: 0.01, Momentum: 0.01, Learning Rate Decay: 0/ROC,AUC: 0.99 Validation SGD 
+Optimizer, Hidden Layers: 50 Learning Rate: 0.01, Momentum: 0.01, Learning Rate
+ Decay: 0.png>] [3 </home/octopuscabbage/code/NeuralAndAdaptiveSystemsFinal/roc
+_curves/Gelatine/ROC,AUC: 0.95 Testing when Gelatine is introduced.png> </home/
+octopuscabbage/code/NeuralAndAdaptiveSystemsFinal/roc_curves/Latex/ROC,AUC: 0.9
+5 Testing when Latex is introduced.png> </home/octopuscabbage/code/NeuralAndAda
+ptiveSystemsFinal/roc_curves/Playdoh/ROC,AUC: 0.96 Testing when Playdoh is intr
+oduced.png> </home/octopuscabbage/code/NeuralAndAdaptiveSystemsFinal/roc_curves
+/Silicone/ROC,AUC: 0.92 Testing when Silicone is introduced.png> </home/octopus
+cabbage/code/NeuralAndAdaptiveSystemsFinal/roc_curves/WoodGlue/ROC,AUC: 0.99 Te
+sting when WoodGlue is introduced.png>] (./template_Article.aux) ) 
 Here is how much of TeX's memory you used:
- 1491 strings out of 495028
- 21505 string characters out of 6181497
- 76252 words of memory out of 5000000
- 4708 multiletter control sequences out of 15000+600000
+ 2807 strings out of 495028
+ 49923 string characters out of 6181497
+ 102676 words of memory out of 5000000
+ 6011 multiletter control sequences out of 15000+600000
  7887 words of font info for 28 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 37i,6n,23p,661b,189s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
-0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on template_Article.pdf (2 pages, 66227 bytes).
+ 44i,9n,47p,661b,356s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr8.pfb>
+Output written on template_Article.pdf (3 pages, 264517 bytes).
 PDF statistics:
- 31 PDF objects out of 1000 (max. 8388607)
- 21 compressed objects within 1 object stream
+ 53 PDF objects out of 1000 (max. 8388607)
+ 27 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

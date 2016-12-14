@@ -1,6 +1,9 @@
 \documentclass[]{article}
 \usepackage{graphicx}
+\usepackage[space]{grffile}
+\usepackage{subfig}
 \graphicspath{ {./roc_curves/} }
+
 %opening
 \title{Transfer Learning Using Convolutional Neural Networks to Detect Spoofs in Fingerprints}
 \author{Chris Denniston}
@@ -29,9 +32,38 @@ Convolutional Neural Networks provide a framework
 %Section IV: Conclusion This section should summarize what has been accomplished in the paper. Many readers will read only the Introduction and Conclusion of your paper. The Conclusion should be written so they can be understood by someone who has not read the main work of the paper.
 \section{Reference}
 \section{Appendix}
-\begin{figure}
-\includegraphics{/home/octopuscabbage/code/NeuralAndAdaptiveSystemsFinal/roc_curves/SGD Optimizer, Hidden Layers: 50 Learning Rate: 0.01, Momentum: 0.01, Learning Rate Decay: 0/ROC,AUC: 0.96 Testing SGD Optimizer, Hidden Layers: 50 Learning Rate: 0.01, Momentum: 0.01, Learning Rate Decay: 0.png}
-\caption{}
-\label{fig:ROC,AUC:0}
-\end{figure}
+\begin{figure}[!ht]
+     \subfloat[Testing\label{subfig-1:dummy}]{%
+       \includegraphics[width=0.5\textwidth]{/home/octopuscabbage/code/NeuralAndAdaptiveSystemsFinal/roc_curves/SGD Optimizer, Hidden Layers: 50 Learning Rate: 0.01, Momentum: 0.01, Learning Rate Decay: 0/ROC,AUC: 0.96 Testing SGD Optimizer, Hidden Layers: 50 Learning Rate: 0.01, Momentum: 0.01, Learning Rate Decay: 0}
+     }
+     \hfill
+     \subfloat[Validation\label{subfig-2:dummy}]{%
+       \includegraphics[width=0.5\textwidth]{/home/octopuscabbage/code/NeuralAndAdaptiveSystemsFinal/roc_curves/SGD Optimizer, Hidden Layers: 50 Learning Rate: 0.01, Momentum: 0.01, Learning Rate Decay: 0/ROC,AUC: 0.99 Validation SGD Optimizer, Hidden Layers: 50 Learning Rate: 0.01, Momentum: 0.01, Learning Rate Decay: 0}
+     }
+     \caption{ROC Curves For Training On All Samples}
+     \label{fig:dummy}
+   \end{figure}
+
+\begin{figure}[!ht]
+     \subfloat[Gelatine\label{subfig-3:dummy}]{%
+       \includegraphics[width=0.5\textwidth]{/home/octopuscabbage/code/NeuralAndAdaptiveSystemsFinal/roc_curves/Gelatine/ROC,AUC: 0.95 Testing when Gelatine is introduced}
+     }
+     \hfill
+     \subfloat[Latex\label{subfig-4:dummy}]{%
+       \includegraphics[width=0.5\textwidth]{/home/octopuscabbage/code/NeuralAndAdaptiveSystemsFinal/roc_curves/Latex/ROC,AUC: 0.95 Testing when Latex is introduced}
+     }
+     \hfill
+     \subfloat[Playdoh\label{subfig-5:dummy}]{%
+            \includegraphics[width=0.5\textwidth]{/home/octopuscabbage/code/NeuralAndAdaptiveSystemsFinal/roc_curves/Playdoh/ROC,AUC: 0.96 Testing when Playdoh is introduced}
+    }
+    \hfill
+    \subfloat[Silicone\label{subfig-6:dummy}]{%
+    	\includegraphics[width=0.5\textwidth]{/home/octopuscabbage/code/NeuralAndAdaptiveSystemsFinal/roc_curves/Silicone/ROC,AUC: 0.92 Testing when Silicone is introduced}
+    }
+    \subfloat[Wood Glue\label{subfig-7:dummy}]{%
+         \includegraphics[width=0.5\textwidth]{/home/octopuscabbage/code/NeuralAndAdaptiveSystemsFinal/roc_curves/WoodGlue/ROC,AUC: 0.99 Testing when WoodGlue is introduced}
+     }
+     \caption{ROC Curves When Novel Spoofs Are Introduced}
+     \label{fig-2:dummy}
+   \end{figure}
 \end{document}
