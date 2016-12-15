@@ -5,4 +5,12 @@ e.~a. J.~C.~Príncipe, {\em Neural and Adaptive Systems: Fundamentals Through
   Simulations}.
 \newblock New York: Wiley, 1999.
 
+\bibitem{alexnet}
+G.~E.~H. Alex~Krizhevsky, Ilya~Sutskever, ``Imagenet classification with deep
+  convolutional neural networks,'' in {\em Advances in neural information
+  processing systems}, pp.~1097--1105.
+
+\bibitem{convnets}
+M.~Nielsen, ``Chapter 6: Deep learning.'' electronic.
+
 \end{thebibliography}
