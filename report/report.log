@@ -1,12 +1,14 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.6)  14 DEC 2016 22:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2016.9.6)  14 DEC 2016 22:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**report.tex
-(./report.tex
-LaTeX2e <2016/02/01>
-Babel <3.9q> and hyphenation patterns for 3 language(s) loaded.
-(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+**\makeatletter\def\HCode{\futurelet\HCode\HChar}\def\HChar{\ifx"\HCode\def\HCo
+de"##1"{\Link##1}\expandafter\HCode\else\expandafter\Link\fi}\def\Link#1.a.b.c.
+{\g@addto@macro\@documentclasshook{\RequirePackage[#1,html]{tex4ht}}\let\HCode\
+documentstyle\def\documentstyle{\let\documentstyle\HCode\expandafter\def\csname
+ tex4ht\endcsname{#1,html}\def\HCode####1{\documentstyle[tex4ht,}\@ifnextchar[{
+\HCode}{\documentstyle[tex4ht]}}}\makeatother\HCode .a.b.c.\input  report.tex
+(./report.tex (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
@@ -23,12 +25,26 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
+(/usr/share/texmf/tex/generic/tex4ht/tex4ht.sty
+version 2008-10-27-17:23
+Package: tex4ht 
+--------------------------------------
+--- Note --- for _ at preamble, use the command line option `early_'
+--------------------------------------
+--------------------------------------
+--- Note --- for ^ at preamble, use the command line option `early^'
+--------------------------------------
+\tmp:toks=\toks14
+)
+(/usr/share/texmf/tex/generic/tex4ht/usepackage.4ht
+version 2009-05-21-09:32
+)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks14
+\KV@toks@=\toks15
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
@@ -39,18 +55,10 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 95.
+Package graphics Info: Driver file: dvips.def on input line 95.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count87
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvips.def
+File: dvips.def 2015/12/30 v3.0k Driver-dependent file (DPC,SPQR)
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
@@ -60,7 +68,7 @@ Package: grffile 2012/04/05 v1.16 Extended file name support for graphics (HO)
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package ifpdf Info: pdfTeX in PDF mode is not detected.
 )
 (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
@@ -68,9 +76,15 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 
@@ -89,7 +103,7 @@ Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
+Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
 )
 Package grffile Info: Option `multidot' is set to `true'.
 Package grffile Info: Option `extendedchars' is set to `false'.
@@ -113,47 +127,336 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@parindent=\dimen110
 \caption@hangindent=\dimen111
 )
-\c@ContinuedFloat=\count88
+\c@ContinuedFloat=\count87
 )
-\c@KVtest=\count89
+\c@KVtest=\count88
 \sf@farskip=\skip43
 \sf@captopadj=\dimen112
 \sf@capskip=\skip44
 \sf@nearskip=\skip45
-\c@subfigure=\count90
-\c@subfigure@save=\count91
-\c@lofdepth=\count92
-\c@subtable=\count93
-\c@subtable@save=\count94
-\c@lotdepth=\count95
+\c@subfigure=\count89
+\c@subfigure@save=\count90
+\c@lofdepth=\count91
+\c@subtable=\count92
+\c@subtable@save=\count93
+\c@lotdepth=\count94
 \sf@top=\skip46
 \sf@bottom=\skip47
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count96
+\lst@mode=\count95
 \lst@gtempboxa=\box26
-\lst@token=\toks15
-\lst@length=\count97
+\lst@token=\toks16
+\lst@length=\count96
 \lst@currlwidth=\dimen113
-\lst@column=\count98
-\lst@pos=\count99
+\lst@column=\count97
+\lst@pos=\count98
 \lst@lostspace=\dimen114
 \lst@width=\dimen115
-\lst@newlines=\count100
-\lst@lineno=\count101
+\lst@newlines=\count99
+\lst@lineno=\count100
 \lst@maxwidth=\dimen116
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count102
-\lst@skipnumbers=\count103
+\c@lstnumber=\count101
+\lst@skipnumbers=\count102
 \lst@framebox=\box27
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
- (./report.aux)
+
+(/usr/share/texmf/tex/generic/tex4ht/tex4ht.4ht
+version 2009-01-07-07:11
+--------------------------------------
+--- Note --- for additional information, use the command line option `info'
+--------------------------------------
+
+::::::::::::::::::::::::::::::::::::::::::
+ TeX4ht info is available in the log file 
+::::::::::::::::::::::::::::::::::::::::::
+) (/usr/share/texmf/tex/generic/tex4ht/tex4ht.sty
+version 2008-10-27-17:23
+
+--- needs --- tex4ht report ---
+\tmp:cnt=\count103
+\openout15 = `report.tmp'.
+
+(./report.tmp)
+\tmp:dim=\skip48
+--------------------------------------
+--- Note --- for XML code, use the command line option `xml' or `xhtml'
+--------------------------------------
+ (./report.xref)
+\:refout=\write3
+\openout3 = `report.xref'.
+
+ (/usr/share/texmf/tex/generic/tex4ht/html4.4ht
+version 2009-05-18-23:01
+--------------------------------------
+--- Note --- to remove the <?xml version=...?> processing instruction use the c
+ommand line option `no-VERSION'
+--------------------------------------
+--------------------------------------
+--- Note --- to remove the DOCTYPE declaration use the command line option `no-
+DOCTYPE'
+--------------------------------------
+)
+(/usr/share/texmf/tex/generic/tex4ht/html4-math.4ht
+version 2009-05-18-23:01
+)
+--------------------------------------
+--- Note --- for marking of the base font, use the command line option `fonts+'
+
+--------------------------------------
+--------------------------------------
+--- Note --- for non active _, use the command line option `no_'
+--------------------------------------
+--------------------------------------
+--- Note --- for _ of catcode 13, use the command line option `_13'
+--------------------------------------
+--------------------------------------
+--- Note --- for non active ^, use the command line option `no^'
+--------------------------------------
+--------------------------------------
+--- Note --- for ^ of catcode 13, use the command line option `^13'
+--------------------------------------
+
+(/usr/share/texmf/tex/generic/tex4ht/html4.4ht
+version 2009-05-18-23:01
+--------------------------------------
+--- Note --- for alternative charset, use the command line option `charset=...'
+
+--------------------------------------
+--------------------------------------
+--- Note --- to ignore CSS font decoration, use the `NoFonts' command line opti
+on
+--------------------------------------
+--------------------------------------
+--- Note --- for jpg bitmaps of pictures, use the `jpg' command line option. (C
+haracter bitmaps are controled only by `g' records of tex4ht.env and `-g' switc
+hes of tex4ht.c) 
+--------------------------------------
+--------------------------------------
+--- Note --- for gif bitmaps of pictures, use the `gif' command line option. (C
+haracter bitmaps are controled only by `g' records of tex4ht.env and `-g' switc
+hes of tex4ht.c) 
+--------------------------------------
+--------------------------------------
+--- Note --- for content and toc in 2 frames, use the command line option `fram
+es'
+--------------------------------------
+--------------------------------------
+--- Note --- for content, toc, and footnotes in 3 frames, use the command line 
+option `frames-fn'
+--------------------------------------
+--------------------------------------
+--- Note --- for file extension name xht, use the command line option `xht'
+--------------------------------------
+TeX4ht package options: html
+--------------------------------------
+--- Note --- to ignore CSS code, use the command line option `-css
+--------------------------------------
+--------------------------------------
+--- Note --- for inline CSS code, use the command line option `css-in'
+--------------------------------------
+--------------------------------------
+--- Note --- for pop ups on mouse over, use the command line option `mouseover'
+
+--------------------------------------
+--------------------------------------
+--- Note --- for addressing images in a subdirectory, use the command line opti
+on `imgdir:.../'
+--------------------------------------
+)
+(/usr/share/texmf/tex/generic/tex4ht/html4-math.4ht
+version 2009-05-18-23:01
+)
+\:tokwrite=\toks17
+\:tokpage=\toks18
+--------------------------------------
+--- Note --- for back links to toc, use the command line option `sections+'
+--------------------------------------
+--------------------------------------
+--- Note --- for linear crosslinks of pages, use the command line option `next'
+
+--------------------------------------
+\openout15 = `report.4ct'.
+
+\:tocout=\write4
+\openout4 = `report.4tc'.
+
+
+(/usr/share/texmf/tex/generic/tex4ht/html4.4ht
+version 2009-05-18-23:01
+)
+(/usr/share/texmf/tex/generic/tex4ht/html4-math.4ht
+version 2009-05-18-23:01
+)
+(/usr/share/texmf/tex/generic/tex4ht/latex.4ht
+version 2009-05-21-09:32
+--------------------------------------
+--- Note --- for links into captions, instead of float heads, use the command l
+ine option `refcaption'
+--------------------------------------
+
+(/usr/share/texmf/tex/generic/tex4ht/html4.4ht
+version 2009-05-18-23:01
+--------------------------------------
+--- Note --- For mini tocs immediately aftter the header use the command line o
+ption `minitoc<'
+--------------------------------------
+--------------------------------------
+--- Note --- for enumerated list elements with valued data, use the command lin
+e option `enumerate+'
+--------------------------------------
+--------------------------------------
+--- Note --- for enumerated list elements li's with value attributes, use the c
+ommand line option `enumerate-'
+--------------------------------------
+--------------------------------------
+--- Note --- for CSS2 code, use the command line option `css2'
+--------------------------------------
+--------------------------------------
+--- Note --- for pictorial tabular, use the command line option `pic-tabular'
+--------------------------------------
+--------------------------------------
+--- Note --- for bitmap fbox'es, use the command line option `pic-fbox'
+--------------------------------------
+--------------------------------------
+--- Note --- for bitmap framebox'es, use the command line option `pic-framebox'
+
+--------------------------------------
+--------------------------------------
+--- Note --- for inline footnotes use command line option `fn-in'
+--------------------------------------
+--------------------------------------
+--- Note --- for tracing of latex font commands, use the command line option `f
+onts'
+--------------------------------------
+--------------------------------------
+--- Note --- for width specifications of tabular p entries, use the `p-width' c
+ommand line option or a configuration similar to \Configure{HColWidth}{\HCode{ 
+style="width:\HColWidth"}}
+--------------------------------------
+)
+(/usr/share/texmf/tex/generic/tex4ht/html4-math.4ht
+version 2009-05-18-23:01
+--------------------------------------
+--- Note --- for pictorial eqnarray, use the command line option `pic-eqnarray'
+
+--------------------------------------
+--------------------------------------
+--- Note --- for pictorial array, use the command line option `pic-array'
+--------------------------------------
+--------------------------------------
+--- Note --- for pictorial $...$ environments, use the command line option `pic
+-m' (not recommended!!)
+--------------------------------------
+--------------------------------------
+--- Note --- for pictorial $...$ and $$...$$ environments with latex alt, use t
+he command line option `pic-m+' (not safe!!)
+--------------------------------------
+--------------------------------------
+--- Note --- for pictorial array, use the command line option `pic-array'
+--------------------------------------
+))
+(/usr/share/texmf/tex/generic/tex4ht/fontmath.4ht
+version 2009-05-21-09:32
+
+(/usr/share/texmf/tex/generic/tex4ht/html4.4ht
+version 2009-05-18-23:01
+)
+(/usr/share/texmf/tex/generic/tex4ht/html4-math.4ht
+version 2009-05-18-23:01
+))
+(/usr/share/texmf/tex/generic/tex4ht/article.4ht
+version 2009-05-21-09:32
+
+(/usr/share/texmf/tex/generic/tex4ht/html4.4ht
+version 2009-05-18-23:01
+--------------------------------------
+--- Note --- for automatic sectioning pagination, use the command line option `
+1', `2', `3', '4', '5', '6', or '7'
+--------------------------------------
+--------------------------------------
+--- Note --- for files named derived from section titles, use the command line 
+option `sec-filename'
+--------------------------------------
+--------------------------------------
+--- Note --- for i-columns index, use the command line option `index=i' (e.g., 
+index=2)
+--------------------------------------
+)
+(/usr/share/texmf/tex/generic/tex4ht/html4-math.4ht
+version 2009-05-18-23:01
+))
+(/usr/share/texmf/tex/generic/tex4ht/graphicx.4ht
+version 2009-05-21-09:32
+
+(/usr/share/texmf/tex/generic/tex4ht/html4.4ht
+version 2009-05-18-23:01
+)
+(/usr/share/texmf/tex/generic/tex4ht/html4-math.4ht
+version 2009-05-18-23:01
+))
+(/usr/share/texmf/tex/generic/tex4ht/graphics.4ht
+version 2009-05-21-09:32
+
+(/usr/share/texmf/tex/generic/tex4ht/html4.4ht
+version 2009-05-18-23:01
+--------------------------------------
+--- Note --- if included graphics are of degraded quality, try the command line
+ options `graphics-num' or `graphics-'. The `num' should provide the density of
+ pixels in the bitmaps (e.g., 110). 
+--------------------------------------
+--------------------------------------
+--- Note --- for key dimensions try the option `Gin-dim'; for key dimensions wh
+en bounding box is unavailable try `Gin-dim+'; neither is recommended
+--------------------------------------
+)
+(/usr/share/texmf/tex/generic/tex4ht/html4-math.4ht
+version 2009-05-18-23:01
+))
+(/usr/share/texmf/tex/generic/tex4ht/dvips.4ht
+version 2009-05-21-09:32
+
+(/usr/share/texmf/tex/generic/tex4ht/html4.4ht
+version 2009-05-18-23:01
+)
+(/usr/share/texmf/tex/generic/tex4ht/html4-math.4ht
+version 2009-05-18-23:01
+))
+(/usr/share/texmf/tex/generic/tex4ht/caption.4ht
+version 2009-05-21-09:32
+
+(/usr/share/texmf/tex/generic/tex4ht/html4.4ht
+version 2009-05-18-23:01
+)
+(/usr/share/texmf/tex/generic/tex4ht/html4-math.4ht
+version 2009-05-18-23:01
+))
+(/usr/share/texmf/tex/generic/tex4ht/listings.4ht
+version 2009-05-21-09:32
+
+(/usr/share/texmf/tex/generic/tex4ht/html4.4ht
+version 2009-05-18-23:01
+--------------------------------------
+--- Note --- to ensure proper alignments use fixed size fonts (see listings.dtx
+)
+--------------------------------------
+)
+(/usr/share/texmf/tex/generic/tex4ht/html4-math.4ht
+version 2009-05-18-23:01
+))
+(/usr/share/texmf/tex/generic/tex4ht/html4.4ht
+version 2009-05-18-23:01
+)
+(/usr/share/texmf/tex/generic/tex4ht/html4-math.4ht
+version 2009-05-18-23:01
+)) (./report.aux)
 \openout1 = `report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
@@ -168,475 +471,201 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count104
-\scratchdimen=\dimen117
-\scratchbox=\box28
-\nofMPsegments=\count105
-\nofMParguments=\count106
-\everyMPshowfont=\toks16
-\MPscratchCnt=\count107
-\MPscratchDim=\dimen118
-\MPnumerator=\count108
-\makeMPintoPDFobject=\count109
-\everyMPtoPDFconversion=\toks17
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-))
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
-
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: Incompatible package detected (regarding \caption).
+(caption)             \caption = macro:->\SkipRefstepAnchor \ifx \@captype \@un
+defined \@latex@error {\noexpand \caption outside float}\@ehd \expandafter \@go
+bble \else \refstepcounter \@captype \expandafter \@firstofone \fi {\@dblarg {\
+@caption \@captype }}.
+Package caption Info: Incompatible package detected (regarding \@caption).
+(caption)             \@caption = macro:->\ifx \EndPicture \:UnDef \expandafter
+ \n:@caption: \else \expandafter \o:@caption: \fi .
+
+
+Package caption Warning: \caption will not be redefined since it's already
+(caption)                redefined by a document class or package which is
+(caption)                unknown to the caption package.
+See the caption package documentation for explanation.
+
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count110
+\c@lstlisting=\count104
+--- file report.css ---
+[1
+
+] [2]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 14.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 14.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 14.
-
-[1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (./report.bbl
+ [3] [4] (./report.bbl [5]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ­ in font cmr10!
 )
-(/home/octopuscabbage/code/SpoofDetectionWithTransferCNN/main.py
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 2.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 2.
-
-Overfull \hbox (51.00403pt too wide) in paragraph at lines 5--6
-[][][][][][][][][][][][][][] 
- []
-
-[3]
-Overfull \hbox (129.00482pt too wide) in paragraph at lines 14--15
-[][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 15.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 15.
-
-Overfull \hbox (57.00409pt too wide) in paragraph at lines 16--17
-[][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (177.00531pt too wide) in paragraph at lines 21--22
-[][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (9.0036pt too wide) in paragraph at lines 32--33
-[][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (345.00702pt too wide) in paragraph at lines 33--35
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (21.00372pt too wide) in paragraph at lines 36--37
-[][][][][][][][][][][][][][][][][][][][] 
- []
-
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 39.
-(/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
-File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 39.
-
-Overfull \hbox (51.00403pt too wide) in paragraph at lines 42--43
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (39.0039pt too wide) in paragraph at lines 48--49
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-[4]
-Overfull \hbox (273.00629pt too wide) in paragraph at lines 55--56
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (381.00739pt too wide) in paragraph at lines 62--63
-[][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (21.00372pt too wide) in paragraph at lines 70--71
-[][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (63.00415pt too wide) in paragraph at lines 76--77
-[][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (99.00452pt too wide) in paragraph at lines 94--95
-[][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (81.00433pt too wide) in paragraph at lines 95--96
-[][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (147.005pt too wide) in paragraph at lines 96--98
-[][][][][][][][][][][][][][][] 
- []
-
-[5]
-Overfull \hbox (21.00372pt too wide) in paragraph at lines 111--114
-[][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (507.00867pt too wide) in paragraph at lines 114--116
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (423.00781pt too wide) in paragraph at lines 123--124
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (381.00739pt too wide) in paragraph at lines 124--125
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (315.00671pt too wide) in paragraph at lines 125--129
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (297.00653pt too wide) in paragraph at lines 129--132
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (129.00482pt too wide) in paragraph at lines 133--136
-[][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (51.00403pt too wide) in paragraph at lines 143--144
-[][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (195.0055pt too wide) in paragraph at lines 145--146
-[][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-[6]
-Overfull \hbox (45.00397pt too wide) in paragraph at lines 149--150
-[][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (81.00433pt too wide) in paragraph at lines 150--151
-[][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (69.00421pt too wide) in paragraph at lines 151--152
-[][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (201.00555pt too wide) in paragraph at lines 152--153
-[][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (111.00464pt too wide) in paragraph at lines 153--155
-[][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (45.00397pt too wide) in paragraph at lines 158--159
-[][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (27.00378pt too wide) in paragraph at lines 160--161
-[][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (789.01154pt too wide) in paragraph at lines 162--163
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
- 
- []
-
-
-Overfull \hbox (303.00659pt too wide) in paragraph at lines 177--178
-[][][][][][][][][][][][][][][][][][][] 
- []
-
-[7]
-Overfull \hbox (63.00415pt too wide) in paragraph at lines 191--192
-[][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (93.00446pt too wide) in paragraph at lines 210--211
-[][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (93.00446pt too wide) in paragraph at lines 212--215
-[][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (177.00531pt too wide) in paragraph at lines 222--224
-[][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (297.00653pt too wide) in paragraph at lines 230--231
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (297.00653pt too wide) in paragraph at lines 231--233
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (81.00433pt too wide) in paragraph at lines 233--234
-[][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (39.0039pt too wide) in paragraph at lines 234--235
-[][][][][][][][][][][][][][][][][][] 
- []
-
-[8]
-Overfull \hbox (51.00403pt too wide) in paragraph at lines 237--238
-[][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (147.005pt too wide) in paragraph at lines 242--243
-[][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (3.00354pt too wide) in paragraph at lines 243--244
-[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (141.00494pt too wide) in paragraph at lines 244--247
-[][][][][][][][][][][][][][][][][] 
- []
-
-) [9]
-</home/octopuscabbage/code/SpoofDetectionWithTransferCNN/roc_curves/SGD Optimiz
-er, Hidden Layers: 50 Learning Rate: 0.01, Momentum: 0.01, Learning Rate Decay:
- 0/ROC,AUC: 0.96 Testing SGD Optimizer, Hidden Layers: 50 Learning Rate: 0.01, 
-Momentum: 0.01, Learning Rate Decay: 0.png, id=40, 578.16pt x 433.62pt>
+(/home/octopuscabbage/code/SpoofDetectionWithTransferCNN/main.py) [6] [7]
+[8
+
+]
+
+LaTeX Warning: File `/home/octopuscabbage/code/SpoofDetectionWithTransferCNN/ro
+c_curves/SGD Optimizer, Hidden Layers: 50 Learning Rate: 0.01, Momentum: 0.01, 
+Learning Rate Decay: 0/ROC,AUC: 0.96 Testing SGD Optimizer, Hidden Layers: 50 L
+earning Rate: 0.01, Momentum: 0.01, Learning Rate Decay: 0' not found on input 
+line 66.
+
+l. 66 Writing report.idv[1] (report0x.png)
+l.66 --- TeX4ht warning --- File `/home/octopuscabbage/code/SpoofDetectionWithT
+ransferCNN/roc_curves/SGD Optimizer, Hidden Layers: 50 Learning Rate: 0.01, Mom
+entum: 0.01, Learning Rate Decay: 0/ROC,AUC: 0.96 Testing SGD Optimizer, Hidden
+ Layers: 50 Learning Rate: 0.01, Momentum: 0.01, Learning Rate Decay: 0' not fo
+und ---
+l.66 --- TeX4ht warning --- Cannot determine size of graphic in /home/octopusca
+bbage/code/SpoofDetectionWithTransferCNN/roc_curves/SGD Optimizer, Hidden Layer
+s: 50 Learning Rate: 0.01, Momentum: 0.01, Learning Rate Decay: 0/ROC,AUC: 0.96
+ Testing SGD Optimizer, Hidden Layers: 50 Learning Rate: 0.01, Momentum: 0.01, 
+Learning Rate Decay: 0 (no BoundingBox) ---
 File: /home/octopuscabbage/code/SpoofDetectionWithTransferCNN/roc_curves/SGD Op
 timizer, Hidden Layers: 50 Learning Rate: 0.01, Momentum: 0.01, Learning Rate D
 ecay: 0/ROC,AUC: 0.96 Testing SGD Optimizer, Hidden Layers: 50 Learning Rate: 0
-.01, Momentum: 0.01, Learning Rate Decay: 0.png Graphic file (type png)
+.01, Momentum: 0.01, Learning Rate Decay: 0 Graphic file (type eps)
 
-<use /home/octopuscabbage/code/SpoofDetectionWithTransferCNN/roc_curves/SGD Opt
-imizer, Hidden Layers: 50 Learning Rate: 0.01, Momentum: 0.01, Learning Rate De
-cay: 0/ROC,AUC: 0.96 Testing SGD Optimizer, Hidden Layers: 50 Learning Rate: 0.
-01, Momentum: 0.01, Learning Rate Decay: 0.png>
-Package pdftex.def Info: /home/octopuscabbage/code/SpoofDetectionWithTransferCN
-N/roc_curves/SGD Optimizer, Hidden Layers: 50 Learning Rate: 0.01, Momentum: 0.
-01, Learning Rate Decay: 0/ROC,AUC: 0.96 Testing SGD Optimizer, Hidden Layers: 
-50 Learning Rate: 0.01, Momentum: 0.01, Learning Rate Decay: 0.png used on inpu
-t line 78.
-(pdftex.def)             Requested size: 345.0pt x 258.74484pt.
+</home/octopuscabbage/code/SpoofDetectionWithTransferCNN/roc_curves/SGD Optimiz
+er, Hidden Layers: 50 Learning Rate: 0.01, Momentum: 0.01, Learning Rate Decay:
+ 0/ROC,AUC: 0.96 Testing SGD Optimizer, Hidden Layers: 50 Learning Rate: 0.01, 
+Momentum: 0.01, Learning Rate Decay: 0>
+
+LaTeX Warning: File `/home/octopuscabbage/code/SpoofDetectionWithTransferCNN/ro
+c_curves/SGD Optimizer, Hidden Layers: 50 Learning Rate: 0.01, Momentum: 0.01, 
+Learning Rate Decay: 0/ROC,AUC: 0.99 Validation SGD Optimizer, Hidden Layers: 5
+0 Learning Rate: 0.01, Momentum: 0.01, Learning Rate Decay: 0' not found on inp
+ut line 70.
+
+l. 70 Writing report.idv[2] (report1x.png)
+l.70 --- TeX4ht warning --- File `/home/octopuscabbage/code/SpoofDetectionWithT
+ransferCNN/roc_curves/SGD Optimizer, Hidden Layers: 50 Learning Rate: 0.01, Mom
+entum: 0.01, Learning Rate Decay: 0/ROC,AUC: 0.99 Validation SGD Optimizer, Hid
+den Layers: 50 Learning Rate: 0.01, Momentum: 0.01, Learning Rate Decay: 0' not
+ found ---
+l.70 --- TeX4ht warning --- Cannot determine size of graphic in /home/octopusca
+bbage/code/SpoofDetectionWithTransferCNN/roc_curves/SGD Optimizer, Hidden Layer
+s: 50 Learning Rate: 0.01, Momentum: 0.01, Learning Rate Decay: 0/ROC,AUC: 0.99
+ Validation SGD Optimizer, Hidden Layers: 50 Learning Rate: 0.01, Momentum: 0.0
+1, Learning Rate Decay: 0 (no BoundingBox) ---
+File: /home/octopuscabbage/code/SpoofDetectionWithTransferCNN/roc_curves/SGD Op
+timizer, Hidden Layers: 50 Learning Rate: 0.01, Momentum: 0.01, Learning Rate D
+ecay: 0/ROC,AUC: 0.99 Validation SGD Optimizer, Hidden Layers: 50 Learning Rate
+: 0.01, Momentum: 0.01, Learning Rate Decay: 0 Graphic file (type eps)
 
 </home/octopuscabbage/code/SpoofDetectionWithTransferCNN/roc_curves/SGD Optimiz
 er, Hidden Layers: 50 Learning Rate: 0.01, Momentum: 0.01, Learning Rate Decay:
  0/ROC,AUC: 0.99 Validation SGD Optimizer, Hidden Layers: 50 Learning Rate: 0.0
-1, Momentum: 0.01, Learning Rate Decay: 0.png, id=42, 578.16pt x 433.62pt>
-File: /home/octopuscabbage/code/SpoofDetectionWithTransferCNN/roc_curves/SGD Op
-timizer, Hidden Layers: 50 Learning Rate: 0.01, Momentum: 0.01, Learning Rate D
-ecay: 0/ROC,AUC: 0.99 Validation SGD Optimizer, Hidden Layers: 50 Learning Rate
-: 0.01, Momentum: 0.01, Learning Rate Decay: 0.png Graphic file (type png)
+1, Momentum: 0.01, Learning Rate Decay: 0> [9
 
-<use /home/octopuscabbage/code/SpoofDetectionWithTransferCNN/roc_curves/SGD Opt
-imizer, Hidden Layers: 50 Learning Rate: 0.01, Momentum: 0.01, Learning Rate De
-cay: 0/ROC,AUC: 0.99 Validation SGD Optimizer, Hidden Layers: 50 Learning Rate:
- 0.01, Momentum: 0.01, Learning Rate Decay: 0.png>
-Package pdftex.def Info: /home/octopuscabbage/code/SpoofDetectionWithTransferCN
-N/roc_curves/SGD Optimizer, Hidden Layers: 50 Learning Rate: 0.01, Momentum: 0.
-01, Learning Rate Decay: 0/ROC,AUC: 0.99 Validation SGD Optimizer, Hidden Layer
-s: 50 Learning Rate: 0.01, Momentum: 0.01, Learning Rate Decay: 0.png used on i
-nput line 82.
-(pdftex.def)             Requested size: 345.0pt x 258.74484pt.
+] [10] [11
 
-Overfull \hbox (3.33333pt too wide) in paragraph at lines 78--83
-[][]
- []
+] [12
 
+]
 
-Overfull \hbox (3.33333pt too wide) in paragraph at lines 78--83
-[] 
- []
+LaTeX Warning: File `/home/octopuscabbage/code/SpoofDetectionWithTransferCNN/ro
+c_curves/Gelatine/ROC,AUC: 0.95 Testing when Gelatine is introduced' not found 
+on input line 78.
 
-
-LaTeX Warning: Float too large for page by 27.48965pt on input line 85.
-
+l. 78 Writing report.idv[3] (report2x.png)
+l.78 --- TeX4ht warning --- File `/home/octopuscabbage/code/SpoofDetectionWithT
+ransferCNN/roc_curves/Gelatine/ROC,AUC: 0.95 Testing when Gelatine is introduce
+d' not found ---
+l.78 --- TeX4ht warning --- Cannot determine size of graphic in /home/octopusca
+bbage/code/SpoofDetectionWithTransferCNN/roc_curves/Gelatine/ROC,AUC: 0.95 Test
+ing when Gelatine is introduced (no BoundingBox) ---
+File: /home/octopuscabbage/code/SpoofDetectionWithTransferCNN/roc_curves/Gelati
+ne/ROC,AUC: 0.95 Testing when Gelatine is introduced Graphic file (type eps)
 
 </home/octopuscabbage/code/SpoofDetectionWithTransferCNN/roc_curves/Gelatine/RO
-C,AUC: 0.95 Testing when Gelatine is introduced.png, id=43, 578.16pt x 433.62pt
->
-File: /home/octopuscabbage/code/SpoofDetectionWithTransferCNN/roc_curves/Gelati
-ne/ROC,AUC: 0.95 Testing when Gelatine is introduced.png Graphic file (type png
-)
+C,AUC: 0.95 Testing when Gelatine is introduced>
 
-<use /home/octopuscabbage/code/SpoofDetectionWithTransferCNN/roc_curves/Gelatin
-e/ROC,AUC: 0.95 Testing when Gelatine is introduced.png>
-Package pdftex.def Info: /home/octopuscabbage/code/SpoofDetectionWithTransferCN
-N/roc_curves/Gelatine/ROC,AUC: 0.95 Testing when Gelatine is introduced.png use
-d on input line 90.
-(pdftex.def)             Requested size: 207.0021pt x 155.24954pt.
+LaTeX Warning: File `/home/octopuscabbage/code/SpoofDetectionWithTransferCNN/ro
+c_curves/Latex/ROC,AUC: 0.95 Testing when Latex is introduced' not found on inp
+ut line 82.
+
+l. 82 Writing report.idv[4] (report3x.png)
+l.82 --- TeX4ht warning --- File `/home/octopuscabbage/code/SpoofDetectionWithT
+ransferCNN/roc_curves/Latex/ROC,AUC: 0.95 Testing when Latex is introduced' not
+ found ---
+l.82 --- TeX4ht warning --- Cannot determine size of graphic in /home/octopusca
+bbage/code/SpoofDetectionWithTransferCNN/roc_curves/Latex/ROC,AUC: 0.95 Testing
+ when Latex is introduced (no BoundingBox) ---
+File: /home/octopuscabbage/code/SpoofDetectionWithTransferCNN/roc_curves/Latex/
+ROC,AUC: 0.95 Testing when Latex is introduced Graphic file (type eps)
 
 </home/octopuscabbage/code/SpoofDetectionWithTransferCNN/roc_curves/Latex/ROC,A
-UC: 0.95 Testing when Latex is introduced.png, id=44, 578.16pt x 433.62pt>
-File: /home/octopuscabbage/code/SpoofDetectionWithTransferCNN/roc_curves/Latex/
-ROC,AUC: 0.95 Testing when Latex is introduced.png Graphic file (type png)
+UC: 0.95 Testing when Latex is introduced>
 
-<use /home/octopuscabbage/code/SpoofDetectionWithTransferCNN/roc_curves/Latex/R
-OC,AUC: 0.95 Testing when Latex is introduced.png>
-Package pdftex.def Info: /home/octopuscabbage/code/SpoofDetectionWithTransferCN
-N/roc_curves/Latex/ROC,AUC: 0.95 Testing when Latex is introduced.png used on i
-nput line 94.
-(pdftex.def)             Requested size: 207.0021pt x 155.24954pt.
+LaTeX Warning: File `/home/octopuscabbage/code/SpoofDetectionWithTransferCNN/ro
+c_curves/Playdoh/ROC,AUC: 0.96 Testing when Playdoh is introduced' not found on
+ input line 86.
+
+l. 86 Writing report.idv[5] (report4x.png)
+l.86 --- TeX4ht warning --- File `/home/octopuscabbage/code/SpoofDetectionWithT
+ransferCNN/roc_curves/Playdoh/ROC,AUC: 0.96 Testing when Playdoh is introduced'
+ not found ---
+l.86 --- TeX4ht warning --- Cannot determine size of graphic in /home/octopusca
+bbage/code/SpoofDetectionWithTransferCNN/roc_curves/Playdoh/ROC,AUC: 0.96 Testi
+ng when Playdoh is introduced (no BoundingBox) ---
+File: /home/octopuscabbage/code/SpoofDetectionWithTransferCNN/roc_curves/Playdo
+h/ROC,AUC: 0.96 Testing when Playdoh is introduced Graphic file (type eps)
 
 </home/octopuscabbage/code/SpoofDetectionWithTransferCNN/roc_curves/Playdoh/ROC
-,AUC: 0.96 Testing when Playdoh is introduced.png, id=45, 578.16pt x 433.62pt>
-File: /home/octopuscabbage/code/SpoofDetectionWithTransferCNN/roc_curves/Playdo
-h/ROC,AUC: 0.96 Testing when Playdoh is introduced.png Graphic file (type png)
+,AUC: 0.96 Testing when Playdoh is introduced>
 
-<use /home/octopuscabbage/code/SpoofDetectionWithTransferCNN/roc_curves/Playdoh
-/ROC,AUC: 0.96 Testing when Playdoh is introduced.png>
-Package pdftex.def Info: /home/octopuscabbage/code/SpoofDetectionWithTransferCN
-N/roc_curves/Playdoh/ROC,AUC: 0.96 Testing when Playdoh is introduced.png used 
-on input line 98.
-(pdftex.def)             Requested size: 207.0021pt x 155.24954pt.
+LaTeX Warning: File `/home/octopuscabbage/code/SpoofDetectionWithTransferCNN/ro
+c_curves/Silicone/ROC,AUC: 0.92 Testing when Silicone is introduced' not found 
+on input line 90.
+
+l. 90 Writing report.idv[6] (report5x.png)
+l.90 --- TeX4ht warning --- File `/home/octopuscabbage/code/SpoofDetectionWithT
+ransferCNN/roc_curves/Silicone/ROC,AUC: 0.92 Testing when Silicone is introduce
+d' not found ---
+l.90 --- TeX4ht warning --- Cannot determine size of graphic in /home/octopusca
+bbage/code/SpoofDetectionWithTransferCNN/roc_curves/Silicone/ROC,AUC: 0.92 Test
+ing when Silicone is introduced (no BoundingBox) ---
+File: /home/octopuscabbage/code/SpoofDetectionWithTransferCNN/roc_curves/Silico
+ne/ROC,AUC: 0.92 Testing when Silicone is introduced Graphic file (type eps)
 
 </home/octopuscabbage/code/SpoofDetectionWithTransferCNN/roc_curves/Silicone/RO
-C,AUC: 0.92 Testing when Silicone is introduced.png, id=46, 578.16pt x 433.62pt
->
-File: /home/octopuscabbage/code/SpoofDetectionWithTransferCNN/roc_curves/Silico
-ne/ROC,AUC: 0.92 Testing when Silicone is introduced.png Graphic file (type png
-)
+C,AUC: 0.92 Testing when Silicone is introduced>
 
-<use /home/octopuscabbage/code/SpoofDetectionWithTransferCNN/roc_curves/Silicon
-e/ROC,AUC: 0.92 Testing when Silicone is introduced.png>
-Package pdftex.def Info: /home/octopuscabbage/code/SpoofDetectionWithTransferCN
-N/roc_curves/Silicone/ROC,AUC: 0.92 Testing when Silicone is introduced.png use
-d on input line 102.
-(pdftex.def)             Requested size: 207.0021pt x 155.24954pt.
+LaTeX Warning: File `/home/octopuscabbage/code/SpoofDetectionWithTransferCNN/ro
+c_curves/WoodGlue/ROC,AUC: 0.99 Testing when WoodGlue is introduced' not found 
+on input line 94.
+
+l. 94 Writing report.idv[7] (report6x.png)
+l.94 --- TeX4ht warning --- File `/home/octopuscabbage/code/SpoofDetectionWithT
+ransferCNN/roc_curves/WoodGlue/ROC,AUC: 0.99 Testing when WoodGlue is introduce
+d' not found ---
+l.94 --- TeX4ht warning --- Cannot determine size of graphic in /home/octopusca
+bbage/code/SpoofDetectionWithTransferCNN/roc_curves/WoodGlue/ROC,AUC: 0.99 Test
+ing when WoodGlue is introduced (no BoundingBox) ---
+File: /home/octopuscabbage/code/SpoofDetectionWithTransferCNN/roc_curves/WoodGl
+ue/ROC,AUC: 0.99 Testing when WoodGlue is introduced Graphic file (type eps)
 
 </home/octopuscabbage/code/SpoofDetectionWithTransferCNN/roc_curves/WoodGlue/RO
-C,AUC: 0.99 Testing when WoodGlue is introduced.png, id=47, 578.16pt x 433.62pt
->
-File: /home/octopuscabbage/code/SpoofDetectionWithTransferCNN/roc_curves/WoodGl
-ue/ROC,AUC: 0.99 Testing when WoodGlue is introduced.png Graphic file (type png
-)
+C,AUC: 0.99 Testing when WoodGlue is introduced> [13
 
-<use /home/octopuscabbage/code/SpoofDetectionWithTransferCNN/roc_curves/WoodGlu
-e/ROC,AUC: 0.99 Testing when WoodGlue is introduced.png>
-Package pdftex.def Info: /home/octopuscabbage/code/SpoofDetectionWithTransferCN
-N/roc_curves/WoodGlue/ROC,AUC: 0.99 Testing when WoodGlue is introduced.png use
-d on input line 106.
-(pdftex.def)             Requested size: 207.0021pt x 155.24954pt.
+] [14] [15] [16
 
-Overfull \hbox (75.67087pt too wide) in paragraph at lines 90--107
-[][] []
- []
-
-
-Overfull \hbox (75.67087pt too wide) in paragraph at lines 90--107
-[] []
- []
-
-
-LaTeX Warning: Float too large for page by 10.24858pt on input line 109.
-
-[10 </home/octopuscabbage/code/SpoofDetectionWithTransferCNN/roc_curves/SGD Opt
-imizer, Hidden Layers: 50 Learning Rate: 0.01, Momentum: 0.01, Learning Rate De
-cay: 0/ROC,AUC: 0.96 Testing SGD Optimizer, Hidden Layers: 50 Learning Rate: 0.
-01, Momentum: 0.01, Learning Rate Decay: 0.png> </home/octopuscabbage/code/Spoo
-fDetectionWithTransferCNN/roc_curves/SGD Optimizer, Hidden Layers: 50 Learning 
-Rate: 0.01, Momentum: 0.01, Learning Rate Decay: 0/ROC,AUC: 0.99 Validation SGD
- Optimizer, Hidden Layers: 50 Learning Rate: 0.01, Momentum: 0.01, Learning Rat
-e Decay: 0.png>] [11 </home/octopuscabbage/code/SpoofDetectionWithTransferCNN/r
-oc_curves/Gelatine/ROC,AUC: 0.95 Testing when Gelatine is introduced.png> </hom
-e/octopuscabbage/code/SpoofDetectionWithTransferCNN/roc_curves/Latex/ROC,AUC: 0
-.95 Testing when Latex is introduced.png> </home/octopuscabbage/code/SpoofDetec
-tionWithTransferCNN/roc_curves/Playdoh/ROC,AUC: 0.96 Testing when Playdoh is in
-troduced.png> </home/octopuscabbage/code/SpoofDetectionWithTransferCNN/roc_curv
-es/Silicone/ROC,AUC: 0.92 Testing when Silicone is introduced.png> </home/octop
-uscabbage/code/SpoofDetectionWithTransferCNN/roc_curves/WoodGlue/ROC,AUC: 0.99 
-Testing when WoodGlue is introduced.png>] (./report.aux) ) 
+] [17]
+(./report.aux) ) 
 Here is how much of TeX's memory you used:
- 4056 strings out of 494953
- 68496 string characters out of 6180978
- 152042 words of memory out of 5000000
- 7308 multiletter control sequences out of 15000+600000
- 8233 words of font info for 29 fonts, out of 8000000 for 9000
+ 7154 strings out of 494954
+ 97782 string characters out of 6181004
+ 395708 words of memory out of 5000000
+ 10337 multiletter control sequences out of 15000+600000
+ 8401 words of font info for 30 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 44i,9n,49p,913b,1375s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on report.pdf (11 pages, 341171 bytes).
-PDF statistics:
- 95 PDF objects out of 1000 (max. 8388607)
- 57 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 47i,8n,51p,1397b,907s stack positions out of 5000i,500n,10000p,200000b,80000s
 
+Output written on report.dvi (17 pages, 149396 bytes).
